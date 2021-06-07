@@ -24,7 +24,7 @@ const UseState = props => {
                     className="campo"
                     type="text"
                     value={sobrenome}
-                    placeholder="Digete seu sobrenome"
+                    placeholder="Digite seu sobrenome"
                     onCharge={ e => setSobrenome(e.target.value) }
                 />
                 <button
